@@ -16,4 +16,4 @@ def scan(ip):
     print(element[1].psrc + "\t\t" + element[1].hwsrc)
 
 
-scan("192.168.175.1/24")
+scan("10.0.2.1/24") #Input your own ip address here, use ifconfig before running to find the ip address of your connected network .1/24 meaning to scan all from 1-254
